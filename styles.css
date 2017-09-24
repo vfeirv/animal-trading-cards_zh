@@ -1,0 +1,61 @@
+/* 添加 CSS */
+* {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+#header{
+	position: relative;
+	width: 300px;
+}
+#name{
+	position: absolute;
+	left: 25px;
+	bottom: 115px;
+	font:30px "华文行楷";
+
+}
+.shulan{
+	border-radius: 20px;
+}
+#shulan{
+	width: 300px;
+	border-radius: 10px;
+}
+body{
+	background: url(bg.jpg);
+	background-size: cover;
+	
+}
+.body{
+	margin-top: 30px;
+	border-radius: 10px;
+	width: 300px;
+	background-color: #dc8842;
+	border:2px solid burlywood;
+}
+
+.intro{
+	font: 14px "楷体" ;
+	font-style: italic;
+	text-indent: 2em;
+	padding-bottom: 5px;
+}
+.part{
+	padding: 10px;
+}
+ul li span{
+	font:22px "隶书";
+
+}
+.list{
+	padding: 0px;
+	padding-left: 1em;
+	border: 2px dashed burlywood;
+	border-radius: 10px;
+}
+.summary{
+	text-indent: 2em;
+	padding-top: 5px;
+}
+
